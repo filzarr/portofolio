@@ -1,4 +1,7 @@
+"use client"
 import Navbar from '@/components/navbar'
+import type { AppProps } from 'next/app'
+import { ThemeProvider } from "next-themes"
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -21,9 +24,10 @@ export default function RootLayout({
         
       </head>
       <body className={inter.className}>
+        <ThemeProvider enableSystem={true} attribute='class'>
         <Navbar></Navbar>
         {children}
-        
+        </ThemeProvider>
         </body>
     </html>
   )

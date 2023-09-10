@@ -2,8 +2,8 @@
 import Image from 'next/image'
 export default function Education() {
     return (
-        <section className="h-screen pt-36 mt-10 pb-10" id='education'>
-            <div className="flex justify-center text-center"><p className="text-5xl font-semibold text-gray-800">Education</p></div>
+        <section className="h-screen pt-36  pb-10 dark:bg-drk" id='education'>
+            <div className="flex justify-center text-center"><p className="text-5xl font-semibold text-emerald-400">Education</p></div>
             <div className="px-32 mt-20">
 
                 <div className=" p-10 rounded-lg shadow-xl border border-gray-300">

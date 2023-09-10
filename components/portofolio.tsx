@@ -6,15 +6,15 @@ import Card from "./card"
 
 export default function Portofolio() {
     return (
-        <section className='pt-32 pb-10' id="portofolio">
-            <div className="flex justify-center text-center"><p className="text-5xl font-semibold text-gray-800">Portofolio</p></div>
+        <section className='pt-32 pb-10 dark:bg-drk' id="portofolio">
+            <div className="flex justify-center text-center"><p className="text-5xl font-semibold text-emerald-400">Portofolio</p></div>
             <div className="px-32 mt-20">
                 <div className="grid grid-cols-3 gap-12">
-                    <Card img="/inspek.png" ket="lorem Ipsum Dolor Sit Amet sdlfksdlkfslkd" judul="Inspektorat Sumatera Utara"></Card>
-                    <Card img="/kasir.png" ket="lorem Ipsum Dolor Sit Amet sdlfksdlkfslkd" judul="Kasir Dan Keuangan Saudara Teknik"></Card>
-                    <Card img="/3.png" ket="lor em Ipsum Dolor Sit Amet sdlfksdlkfslkd" judul="Sistem Informasi CV. Karya Rizki"></Card>
-                    <Card img="/porto.png" ket="lor em Ipsum Dolor Sit Amet sdlfksdlkfslkd" judul="My Portofolio"></Card>
-                    <Card img="/relawan.png" ket="lor em Ipsum Dolor Sit Amet sdlfksdlkfslkd" judul="Aplikasi Tim Pemenangan Caleg"></Card>
+                    <Card img="/inspek.png" ket="lorem Ipsum Dolor Sit Amet sdlfksdlkfslkd" judul="Inspektorat Sumatera Utara" stack={['Tailwind CSS', 'vite', 'Laravel']}></Card>
+                    <Card img="/kasir.png" ket="lorem Ipsum Dolor Sit Amet sdlfksdlkfslkd" judul="Kasir Dan Keuangan Saudara Teknik" stack={['Tailwind CSS', 'Laravel']}></Card>
+                    <Card img="/3.png" ket="lor em Ipsum Dolor Sit Amet sdlfksdlkfslkd" judul="Sistem Informasi CV. Karya Rizki" stack={['Laravel']}></Card>
+                    <Card img="/porto.png" ket="lor em Ipsum Dolor Sit Amet sdlfksdlkfslkd" judul="My Portofolio" stack={['Next JS', 'Tailwind CSS']}></Card>
+                    <Card img="/relawan.png" ket="lor em Ipsum Dolor Sit Amet sdlfksdlkfslkd" judul="Aplikasi Tim Pemenangan Caleg" stack={['Next JS', 'Nest JS']}></Card>
                 </div>
             </div>
             <div className="w-full flex justify-end px-32 mt-20">

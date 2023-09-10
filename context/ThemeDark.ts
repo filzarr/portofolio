@@ -1,0 +1,1 @@
+export const bgdark = "bg-gray-800";

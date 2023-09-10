@@ -1,12 +1,12 @@
 "use client"
 export default function Jumbotron() {
   return (
-    <section className=" h-screen" id="home">
+    <section className=" h-screen dark:bg-drk" id="home">
         <div className=" h-full grid grid-cols-2 px-16 justify-center align-middle items-center justify-items-center">
           <div className=" grid auto-cols-auto   justify-items-start ml-32 items-center gap-2 ">
-            <p className=' text-base text-gray-500 font-medium'>Hello!</p>
+            <p className=' text-base text-gray-500 dark:text-gray-300 font-medium'>Hello!</p>
             <p className=' text-5xl font-semibold text-emerald-400'>Filza Rizki Ramadhan</p>
-            <p className=' text-base text-gray-800 font-semibold'>Full Stack Developer</p>
+            <p className=' text-base text-gray-800 font-semibold dark:text-gray-300'>Full Stack Developer</p>
             <div className='flex justify-start mt-3 gap-3'>
 
               <button className='rounded-full p-2 duration-300 text-emerald-400 hover:text-white  hover:bg-emerald-400 border-emerald-200 border shadow-md'>
@@ -30,7 +30,7 @@ export default function Jumbotron() {
               </button>
 
             </div>
-            <p className=' mt-3 text-base text-gray-500 font-medium'>Seorang Mahasiswa Kampus Negri Yang Sedang Belajar Bermimpi untuk kerja di google</p>
+            <p className=' mt-3 text-base text-gray-500 dark:text-gray-300 font-medium'>Seorang Mahasiswa Kampus Negri Yang Sedang Belajar Bermimpi untuk kerja di google</p>
           </div>
           <div className=""></div>
         </div>
