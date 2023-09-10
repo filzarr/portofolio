@@ -2,7 +2,7 @@
 import Image from 'next/image'
 export default function About() {
     return (
-        <div className=" h-screen" id='About'>
+        <section className=" h-screen" id='about'>
             <div className="grid grid-cols-2 justify-center items-center justify-items-center  h-full  px-28">
                 <div className="">
                     <p className='text-4xl font-bold text-gray-800'>About Me</p>
@@ -38,6 +38,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

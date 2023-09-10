@@ -1,7 +1,7 @@
 "use client"
 export default function Jumbotron() {
   return (
-    <div className=" h-screen">
+    <section className=" h-screen" id="home">
         <div className=" h-full grid grid-cols-2 px-16 justify-center align-middle items-center justify-items-center">
           <div className=" grid auto-cols-auto   justify-items-start ml-32 items-center gap-2 ">
             <p className=' text-base text-gray-500 font-medium'>Hello!</p>
@@ -34,6 +34,6 @@ export default function Jumbotron() {
           </div>
           <div className=""></div>
         </div>
-      </div>
+      </section>
   )
 }

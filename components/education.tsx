@@ -2,7 +2,7 @@
 import Image from 'next/image'
 export default function Education() {
     return (
-        <div className="h-screen pt-32 pb-10">
+        <section className="h-screen pt-36 mt-10 pb-10" id='education'>
             <div className="flex justify-center text-center"><p className="text-5xl font-semibold text-gray-800">Education</p></div>
             <div className="px-32 mt-20">
 
@@ -50,6 +50,6 @@ export default function Education() {
                 </div>
 
             </div>
-        </div>
+        </section>
     )
 }
