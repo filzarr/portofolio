@@ -12,7 +12,6 @@ export default function Navbar() {
     const activeStyle = 'text-emerald-400 font-bold underline underline-offset-4';
     const nonActiveStyle = 'hover:text-emerald-400 hover:underline hover:underline-offset-4 duration-200';
     const [currentRoute, setCurrentRoute] = useState("home");
-    const sections = document.querySelectorAll("section");
     const currentTheme = theme === 'system' ? systemTheme : theme;
     useEffect(() => {
 
@@ -65,11 +64,13 @@ export default function Navbar() {
                     </li>
                     <li><Link href={"/#portofolio"} className={currentRoute == "portofolio" ? activeStyle : nonActiveStyle} onClick={() => setCurrentRoute("portofolio")} > Portofolio</Link>
                     </li>
+                    <li><Link href={"/#contact"} className={currentRoute == "contact" ? activeStyle : nonActiveStyle} onClick={() => setCurrentRoute("contact")} > Contact</Link>
+                    </li>
 
                 </ul>
                 {currentTheme === 'dark' ? (
-                    <button onClick={() => setTheme('light')} className=" bg-drk text-white shadow-xl border border-gray-100 p-4 rounded-full"><svg className="w-4 h-4 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.509 5.75c0-1.493.394-2.96 1.144-4.25h-.081a8.5 8.5 0 1 0 7.356 12.746A8.5 8.5 0 0 1 8.509 5.75Z" />
+                    <button onClick={() => setTheme('light')} className=" bg-drk text-white shadow-xl border border-gray-100 p-4 dark:border-0 dark:shadow-xl rounded-full"><svg className="w-4 h-4 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.509 5.75c0-1.493.394-2.96 1.144-4.25h-.081a8.5 8.5 0 1 0 7.356 12.746A8.5 8.5 0 0 1 8.509 5.75Z" />
                 </svg></button>
               
                 ) : (

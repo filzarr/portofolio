@@ -6,12 +6,12 @@ export default function Education() {
             <div className="flex justify-center text-center"><p className="text-5xl font-semibold text-emerald-400">Education</p></div>
             <div className="px-32 mt-20">
 
-                <div className=" p-10 rounded-lg shadow-xl border border-gray-300">
+                <div className=" p-10 rounded-lg shadow-xl border border-gray-300 dark:bg-[#132347]">
                     <ol className=" grid grid-cols-3">
                         <li className=" mb-6 sm:mb-0">
                             <div className="flex ">
                                 
-                                <div className="z-10 flex items-center justify-center  bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                                <div className="z-10 flex items-center justify-center   rounded-full ring-0  ">
                                     <Image alt='man2' src={'/man2.png'} width={70} height={70}/>
                                 </div>
                                 
@@ -24,7 +24,7 @@ export default function Education() {
                         </li>
                         <li className="grid justify-center  mb-6 sm:mb-0 " >
                             <div className="flex justify-center  mr-5">
-                                <div className="z-10 flex items-center justify-center  bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                                <div className="z-10 flex items-center justify-center   rounded-full ring-0  ">
                                 <Image alt='Universitas Sumatera Utara' src={'/usu.png'} width={60} height={60}/>
                                 </div>
                             </div>
@@ -36,7 +36,7 @@ export default function Education() {
                         </li>
                         <li className=" mt-2 mb-6 sm:mb-0 flex   flex-col     items-end  gap-0 ">
                             <div className=" self-center ml-14 ">
-                                <div className="z-10 flex items-center justify-center  bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                                <div className="z-10 flex items-center justify-center   rounded-full ring-0  ">
                                 <Image alt='Parsinta' src={'/prs.jpeg'} width={60} height={60}/>
                                 </div>
                             </div>

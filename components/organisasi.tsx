@@ -6,7 +6,7 @@ export default function Organisasi() {
       <div className="flex justify-center text-center"><p className="text-5xl font-semibold text-emerald-400">Organisasi</p></div>
       <div className="px-32 mt-20">
         <div className="grid grid-cols-3 gap-20" >
-          <div className=" group w-full border p-5 border-gray-200 shadow-xl rounded-md hover:bg-emerald-400 hover:w-[105%] duration-100 hover:shadow-2xl ">
+          <div className=" group w-full border p-5 border-gray-200 shadow-xl rounded-md hover:bg-emerald-400 hover:w-[105%] duration-100 hover:shadow-2xl dark:bg-[#132347] ">
             <div className="flex justify-center w-full ">
               <Image alt='himatif' src={'/himatif.png'} width={100} height={100} />
             </div>
@@ -35,7 +35,7 @@ export default function Organisasi() {
               </ul>
             </div>
           </div>
-          <div className=" group w-full border p-5 border-gray-200 shadow-xl rounded-md hover:bg-emerald-400 hover:w-[105%] duration-100 hover:shadow-2xl">
+          <div className=" group w-full border p-5 border-gray-200 shadow-xl rounded-md hover:bg-emerald-400 hover:w-[105%] duration-100 hover:shadow-2xl dark:bg-[#132347]">
             <div className="flex justify-center w-full ">
               <Image alt='Pema' src={'/pema.png'} width={100} height={100} />
             </div>
@@ -64,7 +64,7 @@ export default function Organisasi() {
               </ul>
             </div>
           </div>
-          <div className=" group w-full border p-5 border-gray-200 shadow-xl rounded-md hover:bg-emerald-400 hover:w-[105%] duration-100 hover:shadow-2xl">
+          <div className=" group w-full border p-5 border-gray-200 shadow-xl rounded-md hover:bg-emerald-400 hover:w-[105%] duration-100 hover:shadow-2xl dark:bg-[#132347]">
             <div className="flex justify-center w-full ">
               <Image alt='ITLG' src={'/itlg.jpg'} width={100} height={100} />
             </div>
