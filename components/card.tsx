@@ -23,9 +23,9 @@ export  function Card({ img, judul, ket, stack }: AppCard) {
                 <p className="mt-3 hover:text-emerald-400 duration-100 hover:underline hover:underline-offset-8 text-2xl font-semibold ">{judul}</p>
             </a>
             <div className="flex gap-5 mt-3">
-                {stack.map((val, index) => (
+                {stack.map((val) => (
                     <div className=" bg-gray-300 px-2 py-1 dark:bg-drk dark:border-gray-600 dark:border dark:text-gray-300"  >
-                        <p className="text-xs font-medium" key={index}>{val}</p>
+                        <p className="text-xs font-medium" >{val}</p>
                     </div>
                 ))}
 

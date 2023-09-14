@@ -16,13 +16,13 @@ export default function ThemeContext() {
 
             <Navbar></Navbar>
             <Jumbotron></Jumbotron>
-            {/* <About></About>
+            <About></About>
             <Education></Education>
             <Organisasi></Organisasi>
             <Skill></Skill>
             <Portofolio></Portofolio>
             <Contact></Contact>
-            <Footer></Footer> */}
+            <Footer></Footer>
         </ThemeProvider>
     )
 }
