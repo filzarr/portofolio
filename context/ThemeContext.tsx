@@ -22,7 +22,7 @@ export default function ThemeContext() {
             <Skill></Skill>
             <Portofolio></Portofolio>
             <Contact></Contact>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </ThemeProvider>
     )
 }

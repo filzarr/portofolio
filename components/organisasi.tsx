@@ -2,10 +2,10 @@
 import Image from "next/image"
 export default function Organisasi() {
   return (
-    <section className="h-screen pt-36  pb-10 dark:bg-drk" id="organisasi">
+    <section className="md:h-screen pt-36  pb-10 dark:bg-drk" id="organisasi">
       <div className="flex justify-center text-center"><p className="text-5xl font-semibold text-emerald-400">Organisasi</p></div>
-      <div className="px-32 mt-20">
-        <div className="grid grid-cols-3 gap-20" >
+      <div className="md:px-32 px-5 mt-20">
+        <div className="grid md:grid-cols-3 md:gap-20 gap-10" >
           <div className=" group w-full border p-5 border-gray-200 shadow-xl rounded-md hover:bg-emerald-400 hover:w-[105%] duration-100 hover:shadow-2xl dark:bg-[#132347] ">
             <div className="flex justify-center w-full ">
               <Image alt='himatif' src={'/himatif.png'} width={100} height={100} />

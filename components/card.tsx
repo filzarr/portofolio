@@ -17,10 +17,10 @@ export  function Card({ img, judul, ket, stack }: AppCard) {
 
 
     return (
-        <div className=" dark:border-gray-900/50 border dark:bg-[#132347] border-gray-100 shadow-md dark:shadow-gray-800/50 shadow-gray-300 p-5 rounded-md hover:shadow-2xl  duration-300">
+        <div className=" dark:border-gray-900/50 border dark:bg-[#132347] border-gray-100 shadow-md dark:shadow-gray-800/50 shadow-gray-300 p-3 md:p-5 rounded-md hover:shadow-2xl  duration-300">
             <Image className="border border-gray-300 rounded-md" src={`${img}`} alt="" width={1000} height={1000} />
             <a href="">
-                <p className="mt-3 hover:text-emerald-400 duration-100 hover:underline hover:underline-offset-8 text-2xl font-semibold ">{judul}</p>
+                <p className="mt-3 hover:text-emerald-400 duration-100 hover:underline hover:underline-offset-8 text-xl md:text-2xl font-semibold ">{judul}</p>
             </a>
             <div className="flex gap-5 mt-3">
                 {stack.map((val, index) => (
@@ -32,7 +32,7 @@ export  function Card({ img, judul, ket, stack }: AppCard) {
 
             </div>
             <p className="my-6 text-base dark:text-gray-300">{ket}</p>
-            <div className="flex gap-3 mt-5 h-max   items-end">
+            <div className="flex md:gap-3 mt-5 h-max max-sm:text-sm gap-2   items-end">
                 <a href="" className="flex hover:bg-emerald-900 duration-100 items-center gap-2 bg-emerald-400 px-3 py-2  font-semibold rounded-md text-white">Details<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                     <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
                 </svg></a>

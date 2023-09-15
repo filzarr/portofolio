@@ -30,7 +30,7 @@ export default function Jumbotron() {
               </button>
 
             </div>
-            <p className=' w-full text-center mt-3 text-base text-gray-500 dark:text-gray-300 font-medium'>Seorang Mahasiswa Kampus Negri Yang Sedang Belajar Bermimpi untuk kerja di google</p>
+            <p className=' w-full max-sm:text-center mt-3 text-base text-gray-500 dark:text-gray-300 font-medium'>Seorang Mahasiswa Kampus Negri Yang Sedang Belajar Bermimpi untuk kerja di google</p>
           </div>
           <div className=""></div>
         </div>
